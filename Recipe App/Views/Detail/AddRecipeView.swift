@@ -25,6 +25,7 @@ struct AddRecipeView: View {
                 Section(header: Text("Name")) {
                     TextField("Recipe Name", text: $name)
                 }
+//MARK: - Category
                 Section(header: Text("Category")) {
                     Picker("Selection", selection: $selectedCategory) {
                         ForEach(Category.allCases) { category in
@@ -35,6 +36,7 @@ struct AddRecipeView: View {
 //  выбор вида меню
                     .pickerStyle(.automatic)
                 }
+//MARK: -
                 Section(header: Text("Descroption")) {
                     TextEditor(text: $descroption)
                 }

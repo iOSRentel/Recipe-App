@@ -17,6 +17,7 @@ struct RecipeList: View {
                     .font(.headline)
                     .fontWeight(.medium)
                     .opacity(0.7)
+                    .padding(8)
             
                 Spacer()
             }

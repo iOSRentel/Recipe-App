@@ -21,6 +21,8 @@ struct TabBar: View {
                     Label("Categories", systemImage: "square.fill.text.grid.1x2")
                 }
            NewRecipe()
+                
+            
                 .tabItem {
                     Label("New", systemImage: "plus")
                 }

@@ -34,7 +34,7 @@ struct RecipeCard: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
-        .frame(width: 160, height: 217, alignment: .top)
+        .frame(width: 160, height: 160, alignment: .top)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
     }
 }
